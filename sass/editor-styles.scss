@@ -1,0 +1,29 @@
+/*
+ * Editor Styles
+ *
+ * @package Graham
+ */
+
+/* Post Titles */
+.edit-post-visual-editor__post-title-wrapper .wp-block-post-title {
+	margin-bottom: 0.75em;
+	padding-bottom: 0.75em;
+
+	&::before {
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 1.5em;
+		height: 3px;
+		content: "";
+		background-color: var(--wp--preset--color--primary);
+	}
+}
+
+/* Override Button Styles */
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	padding: 0.4rem 1rem;
+	border-width: 3px;
+}
