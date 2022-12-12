@@ -613,22 +613,15 @@ hr.wp-block-separator.is-style-thin {
 /* Underlined Heading */
 .is-style-underlined-heading {
 	position: relative;
-	margin-bottom: 0.75em !important;
-	padding-bottom: 0.75em;
+	margin-bottom: 0.5em !important;
+	padding-bottom: 0.5em;
 }
 .is-style-underlined-heading::before {
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
-	width: 1.5em;
-	height: 3px;
+	width: 100%;
+	height: 1px;
 	content: "";
-	background-color: var(--wp--preset--color--primary);
-}
-.is-style-underlined-heading.has-text-align-center::before {
-	left: 50%;
-	margin-left: -0.75em;
-}
-.is-style-underlined-heading.has-text-align-right::before {
-	right: 0;
+	background-color: var(--wp--preset--color--medium-gray);
 }
