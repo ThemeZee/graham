@@ -743,7 +743,7 @@
 					"text": "#202020"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "bold"
 				},
 				"elements": {
@@ -783,7 +783,7 @@
 			}
 		},
 		"color": {
-			"background": "#ecf4f8",
+			"background": "#ffffff",
 			"text": "#202020"
 		},
 		"elements": {

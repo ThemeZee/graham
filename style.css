@@ -506,10 +506,7 @@ hr.wp-block-separator.is-style-thin {
 	gap: 0 1rem;
 }
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content {
-	padding-top: var(--wp--preset--spacing--70);
-	padding-bottom: var(--wp--preset--spacing--70);
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding: 0.5rem;
 }
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:hover, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:focus, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:active {
 	text-decoration: none;
