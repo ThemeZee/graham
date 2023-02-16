@@ -56,7 +56,7 @@ function graham_excerpt_length( $length ) {
 		return $length;
 	}
 
-	return apply_filters( 'graham_excerpt_length', 42 );
+	return apply_filters( 'graham_excerpt_length', 25 );
 }
 add_filter( 'excerpt_length', 'graham_excerpt_length' );
 

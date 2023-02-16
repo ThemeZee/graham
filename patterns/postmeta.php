@@ -6,22 +6,16 @@
 */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"gray","layout":{"type":"flex","allowOrientation":false,"flexWrap":"wrap"}} -->
-<div class="wp-block-group has-gray-color has-text-color" style="font-style:normal;font-weight:500">
+<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"wrap"},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--30)">
+
+	<!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|darker-gray"}}}},"textColor":"darker-gray","className":"flip-link-hover"} /-->
 
 	<!-- wp:paragraph -->
-	<p><?php _e( 'Posted on', 'graham' ); ?>&nbsp;</p>
+	<p>/</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:post-date {"isLink":true} /-->
-
-	<!-- wp:paragraph -->
-	<p>&nbsp;<?php _e( 'by', 'graham' ); ?>&nbsp;</p>
-	<!-- /wp:paragraph -->
-
-	<!-- wp:post-author {"showAvatar":false} /-->
-
-	<!-- wp:post-terms {"term":"category","prefix":"&nbsp;<?php _e( 'in', 'graham' ); ?>&nbsp;"} /-->
+	<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|darker-gray"}}}},"textColor":"darker-gray","className":"flip-link-hover"} /-->
 
 </div>
 <!-- /wp:group -->

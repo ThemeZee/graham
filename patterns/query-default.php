@@ -12,14 +12,14 @@
 
 	<!-- wp:post-template -->
 
-		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}}} -->
-		<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--80)">
+		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"}}}} -->
+		<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--70)">
 
 			<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
 			<!-- wp:pattern {"slug":"graham/postmeta"} /-->
 
-			<!-- wp:post-title {"isLink":true,"className":"is-style-underlined-heading","fontSize":"huge"} /-->
+			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"xxx-large"} /-->
 
 			<!-- wp:post-excerpt {"moreText":"Continue reading"} /-->
 
