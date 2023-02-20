@@ -21,7 +21,7 @@
 
 			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
-			<!-- wp:post-excerpt {"moreText":"Continue reading"} /-->
+			<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>"} /-->
 
 		</div>
 		<!-- /wp:group -->
