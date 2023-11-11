@@ -83,8 +83,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "720px",
-			"wideSize": "960px"
+			"contentSize": "560px",
+			"wideSize": "1040px"
 		},
 		"typography": {
 			"fluid": true,
@@ -509,19 +509,19 @@
 					"name": "Extra Large"
 				},
 				{
-					"size": "32px",
+					"size": "36px",
 					"fluid": {
 						"min": "1.5rem",
-						"max": "2rem"
+						"max": "2.25rem"
 					},
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				},
 				{
-					"size": "44px",
+					"size": "56px",
 					"fluid": {
 						"min": "1.75rem",
-						"max": "2.75rem"
+						"max": "3.5rem"
 					},
 					"slug": "xxx-large",
 					"name": "Extra Extra Extra Large"
