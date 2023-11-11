@@ -15,22 +15,22 @@
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"},"margin":{"bottom":"var:preset|spacing|70"}}}} -->
 	<div class="wp-block-columns" style="margin-bottom:var(--wp--preset--spacing--70)">
 
-		<!-- wp:column {"width":"60%"} -->
-		<div class="wp-block-column" style="flex-basis:60%">
+		<!-- wp:column {"width":"55%"} -->
+		<div class="wp-block-column" style="flex-basis:55%">
 
-			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","style":{"spacing":{"margin":{"top":"0"}}}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"40%"} -->
-		<div class="wp-block-column" style="flex-basis:40%">
+		<!-- wp:column {"width":"45%"} -->
+		<div class="wp-block-column" style="flex-basis:45%">
 
 			<!-- wp:pattern {"slug":"graham/postmeta"} /-->
 
 			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
-			<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>","excerptLength":15} /-->
+			<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>"} /-->
 
 		</div>
 		<!-- /wp:column -->
