@@ -1,35 +1,15 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|70"}},"className":"site-content","layout":{"type":"constrained","contentSize":"1360px"}} -->
-<main class="wp-block-group site-content" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)">
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"className":"site-content","layout":{"type":"constrained","contentSize":"800px","wideSize":"1040px"},"metadata":{"name":"Main"}} -->
+<main class="wp-block-group site-content" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
 
-	<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"0"},"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|70"}}}} -->
-	<div class="wp-block-columns" style="margin-bottom:0">
-		
-		<!-- wp:column {"width":"76%","style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"className":"post-wrapper"} -->
-		<div class="wp-block-column post-wrapper" style="flex-basis:76%">
+	<!-- wp:group {"align":"wide"} -->
+	<div class="wp-block-group alignwide">
 
-			<!-- wp:group -->
-			<div class="wp-block-group">
-
-				<!-- wp:template-part {"slug":"posts","tagName":"section"} /-->
-
-			</div>
-			<!-- /wp:group -->
-
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"24%","style":{"spacing":{"padding":{"left":"var:preset|spacing|70"}},"border":{"left":{"color":"var:preset|color|medium-gray","width":"1px"}}},"className":"sidebar-wrapper"} -->
-		<div class="wp-block-column sidebar-wrapper" style="border-left-color:var(--wp--preset--color--medium-gray);border-left-width:1px;padding-left:var(--wp--preset--spacing--70);flex-basis:24%">
-
-			<!-- wp:template-part {"slug":"sidebar","tagName":"section"} /-->
-
-		</div>
-		<!-- /wp:column -->
+		<!-- wp:template-part {"slug":"posts","tagName":"section"} /-->
 
 	</div>
-	<!-- /wp:columns -->
+	<!-- /wp:group -->
 
 </main>
 <!-- /wp:group -->
