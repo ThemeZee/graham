@@ -16,8 +16,8 @@
 			]
 		},
 		{
-			"name": "page-sidebar",
-			"title": "Page (Sidebar)",
+			"name": "page-fullwidth-no-title",
+			"title": "Page (Fullwidth, No Title)",
 			"postTypes": [
 				"page"
 			]
