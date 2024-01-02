@@ -347,6 +347,37 @@
 				{
 					"fontFace": [
 						{
+							"fontFamily": "Outfit",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/outfit/outfit-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Outfit",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/outfit/outfit-medium.woff2"
+							]
+						},
+						{
+							"fontFamily": "Outfit",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/outfit/outfit-bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "Outfit, sans-serif",
+					"name": "Outfit",
+					"slug": "outfit"
+				},
+				{
+					"fontFace": [
+						{
 							"fontFamily": "Quicksand",
 							"fontStyle": "normal",
 							"fontWeight": "400",
@@ -743,7 +774,7 @@
 					"text": "#202020"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--fira-sans)",
+					"fontFamily": "var(--wp--preset--font-family--outfit)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontWeight": "bold"
 				},
@@ -819,7 +850,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--fira-sans)",
+					"fontFamily": "var(--wp--preset--font-family--outfit)",
 					"lineHeight": "1.25"
 				}
 			},
