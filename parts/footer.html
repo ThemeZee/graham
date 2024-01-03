@@ -1,11 +1,11 @@
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|80","left":"var:preset|spacing|80","bottom":"var:preset|spacing|60","top":"var:preset|spacing|60"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"1200px"},"fontSize":"small"} -->
-<div class="wp-block-group has-white-background-color has-background has-small-font-size" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--80)">
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|80","left":"var:preset|spacing|80","bottom":"var:preset|spacing|60","top":"var:preset|spacing|60"}},"border":{"top":{"color":"var:preset|color|medium-gray","width":"1px"},"right":{},"bottom":{},"left":{}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"1280px"},"fontSize":"small"} -->
+<div class="wp-block-group has-white-background-color has-background has-small-font-size" style="border-top-color:var(--wp--preset--color--medium-gray);border-top-width:1px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--80)">
 
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|80","left":"var:preset|spacing|80"},"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"bottom":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns" style="margin-bottom:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 
-		<!-- wp:column {"width":"50%"} -->
-		<div class="wp-block-column" style="flex-basis:50%">
+		<!-- wp:column {"width":"45%"} -->
+		<div class="wp-block-column" style="flex-basis:45%">
 
 			<!-- wp:group {"className":"footer-widget"} -->
 			<div class="wp-block-group footer-widget">
@@ -13,7 +13,35 @@
 				<!-- wp:site-title {"level":0} /-->
 
 				<!-- wp:paragraph -->
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:pattern {"slug":"graham/footer-text"} /-->
+
+			</div>
+			<!-- /wp:group -->
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"10%"} -->
+		<div class="wp-block-column" style="flex-basis:10%">
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"15%"} -->
+		<div class="wp-block-column" style="flex-basis:15%">
+
+			<!-- wp:group {"className":"footer-widget"} -->
+			<div class="wp-block-group footer-widget">
+
+				<!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"fontSize":"medium"} -->
+				<h4 class="has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50)">Topics</h4>
+				<!-- /wp:heading -->
+
+				<!-- wp:paragraph {"className":"flip-link-hover"} -->
+				<p class="flip-link-hover"><a href="#">Link to page</a><br><a href="#">Link to page</a><br><a href="#">Link to page</a><br><a href="#">Link to page</a></p>
 				<!-- /wp:paragraph -->
 
 			</div>
@@ -22,40 +50,39 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"20%"} -->
-		<div class="wp-block-column" style="flex-basis:20%">
-
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"30%"} -->
-		<div class="wp-block-column" style="flex-basis:30%">
+		<!-- wp:column {"width":"15%"} -->
+		<div class="wp-block-column" style="flex-basis:15%">
 
 			<!-- wp:group {"className":"footer-widget"} -->
 			<div class="wp-block-group footer-widget">
 
-				<!-- wp:heading {"textAlign":"right","level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"fontSize":"medium"} -->
-				<h4 class="has-text-align-right has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50)">Get in touch</h4>
+				<!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"fontSize":"medium"} -->
+				<h4 class="has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50)">About us</h4>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"align":"right","className":"flip-link-hover"} -->
-				<p class="has-text-align-right flip-link-hover">
-					<a href="tel://0123456789">0123-456789</a><br/>
-					<a href="mailto:example@domain.com">example@domain.com</a><br/>
-					1234 Graham Street, Frankfurt, Germany
-				</p>
+				<!-- wp:paragraph {"className":"flip-link-hover"} -->
+				<p class="flip-link-hover"><a href="#">Link to page</a><br><a href="#">Link to page</a><br><a href="#">Link to page</a><br><a href="#">Link to page</a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:social-links {"className":"is-style-primary-hover","layout":{"type":"flex","justifyContent":"right"}} -->
-				<ul class="wp-block-social-links is-style-primary-hover">
+			</div>
+			<!-- /wp:group -->
 
-					<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
-					<!-- wp:social-link {"url":"https://linkedin.com/","service":"linkedin"} /-->
-					<!-- wp:social-link {"url":"https://facebook.com/","service":"facebook"} /-->
-					<!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
+		</div>
+		<!-- /wp:column -->
 
-				</ul>
-				<!-- /wp:social-links -->
+		<!-- wp:column {"width":"15%"} -->
+		<div class="wp-block-column" style="flex-basis:15%">
+
+			<!-- wp:group {"className":"footer-widget"} -->
+			<div class="wp-block-group footer-widget">
+
+				<!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"fontSize":"medium"} -->
+				<h4 class="has-medium-font-size" style="margin-top:var(--wp--preset--spacing--50)">Media</h4>
+				<!-- /wp:heading -->
+
+				<!-- wp:paragraph {"className":"flip-link-hover"} -->
+				<p class="flip-link-hover"><a href="#">Link to page</a><br><a href="#">Link to page</a><br><a href="#">Link to page</a><br><a href="#">Link to page</a></p>
+				<!-- /wp:paragraph -->
 
 			</div>
 			<!-- /wp:group -->
@@ -65,19 +92,6 @@
 
 	</div>
 	<!-- /wp:columns -->
-
-
-	<!-- wp:separator {"className":"is-style-thin"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-thin"/>
-	<!-- /wp:separator -->
-
-	<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
-	<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-
-		<!-- wp:pattern {"slug":"graham/footer-text"} /-->
-
-	</div>
-	<!-- /wp:group -->
 
 </div>
 <!-- /wp:group -->
