@@ -1,13 +1,16 @@
 <?php
 /**
- * Title: Magazine Horizontal
- * Slug: graham/magazine-horizontal
+ * Title: Magazine Horizontal Box
+ * Slug: graham/magazine-horizontal-box
  * Categories: graham_magazine
-*/
+ *
+ * @package Graham
+ */
+
 ?>
 
-<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|medium-gray","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}}} -->
-<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--medium-gray);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--70)">
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"default"},"metadata":{"name":"Magazine Horizontal Box"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
 
 	<!-- wp:heading {"style":{"typography":{}},"className":"flip-link-hover","fontSize":"base"} -->
 	<h2 class="wp-block-heading flip-link-hover has-base-font-size"><?php esc_html_e( 'Category', 'graham' ); ?>: <a href="#">Name</a></h2>
@@ -24,7 +27,7 @@
 			<!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center">
 
-				<!-- wp:post-featured-image {"isLink":true,"height":"360px"} /-->
+				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 			</div>
 			<!-- /wp:column -->
@@ -57,7 +60,7 @@
 			<!-- wp:group -->
 			<div class="wp-block-group">
 
-				<!-- wp:post-featured-image {"isLink":true,"height":"180px"} /-->
+				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 				<!-- wp:pattern {"slug":"graham/postmeta-date"} /-->
 

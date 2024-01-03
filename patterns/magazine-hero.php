@@ -3,11 +3,14 @@
  * Title: Magazine Hero
  * Slug: graham/magazine-hero
  * Categories: graham_magazine
-*/
+ *
+ * @package Graham
+ */
+
 ?>
 
-<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|medium-gray","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--medium-gray);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--70)">
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"default"},"metadata":{"name":"Magazine Hero"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
 
 	<!-- wp:query {"query":{"perPage":"1","pages":"1","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"list"}} -->
 	<div class="wp-block-query">
@@ -20,7 +23,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"65%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:65%">
 
-				<!-- wp:post-featured-image {"isLink":true,"height":"480px"} /-->
+				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 			</div>
 			<!-- /wp:column -->
@@ -30,9 +33,9 @@
 
 				<!-- wp:pattern {"slug":"graham/postmeta"} /-->
 
-				<!-- wp:post-title {"level":1,"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
+				<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
-				<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>","style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
+				<!-- wp:post-excerpt {"excerptLength":20, "moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>","style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
 
 			</div>
 			<!-- /wp:column -->

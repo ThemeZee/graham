@@ -3,7 +3,10 @@
  * Title: Postmeta
  * Slug: graham/postmeta
  * Inserter: no
-*/
+ *
+ * @package Graham
+ */
+
 ?>
 
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"wrap"},"fontSize":"small"} -->

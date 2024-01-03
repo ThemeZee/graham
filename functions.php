@@ -46,22 +46,6 @@ add_action( 'enqueue_block_editor_assets', 'graham_block_scripts' );
 
 
 /**
- * Change excerpt length for default posts
- *
- * @param int $length Length of excerpt in number of words.
- * @return int
- */
-function graham_excerpt_length( $length ) {
-	if ( is_admin() ) {
-		return $length;
-	}
-
-	return apply_filters( 'graham_excerpt_length', 20 );
-}
-add_filter( 'excerpt_length', 'graham_excerpt_length' );
-
-
-/**
  * Registers block pattern categories.
  *
  * @return void
@@ -71,7 +55,7 @@ function graham_register_block_pattern_categories() {
 		'graham_hero'         => array( 'label' => __( 'Graham: Hero', 'graham' ) ),
 		'graham_cta'          => array( 'label' => __( 'Graham: Call to Action', 'graham' ) ),
 		'graham_features'     => array( 'label' => __( 'Graham: Features', 'graham' ) ),
-		'graham_magazine'     => array( 'label' => __( 'Graham: Magazine', 'graham' ) ),
+		'graham_magazine'     => array( 'label' => __( 'Graham: Magazine Sections', 'graham' ) ),
 		'graham_media_text'   => array( 'label' => __( 'Graham: Media Text', 'graham' ) ),
 		'graham_portfolio'    => array( 'label' => __( 'Graham: Portfolio', 'graham' ) ),
 		'graham_services'     => array( 'label' => __( 'Graham: Services', 'graham' ) ),

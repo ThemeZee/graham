@@ -1,13 +1,16 @@
 <?php
 /**
- * Title: Magazine Double
- * Slug: graham/magazine-double
+ * Title: Magazine Double List
+ * Slug: graham/magazine-double-list
  * Categories: graham_magazine
-*/
+ *
+ * @package Graham
+ */
+
 ?>
 
-<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|medium-gray","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|70"}}}} -->
-<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--medium-gray);border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--70)">
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"default"},"metadata":{"name":"Magazine Double List"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
 
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns">
@@ -27,7 +30,7 @@
 					<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
 					<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)">
 
-						<!-- wp:post-featured-image {"isLink":true,"height":"300px"} /-->
+						<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 						<!-- wp:pattern {"slug":"graham/postmeta"} /-->
 
@@ -54,7 +57,7 @@
 					<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 
-						<!-- wp:post-featured-image {"isLink":true} /-->
+						<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 					</div>
 					<!-- /wp:column -->
@@ -95,7 +98,7 @@
 					<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
 					<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)">
 
-						<!-- wp:post-featured-image {"isLink":true,"height":"300px"} /-->
+						<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 						<!-- wp:pattern {"slug":"graham/postmeta"} /-->
 
@@ -122,7 +125,7 @@
 					<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 
-						<!-- wp:post-featured-image {"isLink":true} /-->
+						<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9"} /-->
 
 					</div>
 					<!-- /wp:column -->

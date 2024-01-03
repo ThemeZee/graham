@@ -4,7 +4,10 @@
  * Slug: graham/query-grid
  * Block Types: core/query
  * Categories: query
-*/
+ *
+ * @package Graham
+ */
+
 ?>
 
 <!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2}} -->
@@ -15,7 +18,7 @@
 		<!-- wp:group -->
 		<div class="wp-block-group">
 
-			<!-- wp:post-featured-image {"isLink":true,"height":"240px","style":{"spacing":{"margin":{"top":"0px"}}}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
 			<!-- wp:pattern {"slug":"graham/postmeta"} /-->
 

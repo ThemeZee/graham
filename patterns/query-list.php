@@ -4,7 +4,10 @@
  * Slug: graham/query-list
  * Block Types: core/query
  * Categories: query
-*/
+ *
+ * @package Graham
+ */
+
 ?>
 
 <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->

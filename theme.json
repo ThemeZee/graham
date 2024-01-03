@@ -701,10 +701,10 @@
 					"link": {
 						"spacing": {
 							"padding": {
-								"top": "calc(0.4rem + 2px)",
-								"bottom": "calc(0.4rem + 2px)",
-								"left": "calc(0.8rem + 2px)",
-								"right": "calc(0.8rem + 2px)"
+								"top": "0.4rem",
+								"bottom": "0.4rem",
+								"left": "0.8rem",
+								"right": "0.8rem"
 							}
 						},
 						"color": {
@@ -735,7 +735,7 @@
 						},
 						":hover": {
 							"color": {
-								"text": "var(--wp--preset--color--secondary)"
+								"text": "var(--wp--preset--color--primary)"
 							}
 						}
 					}
@@ -910,9 +910,6 @@
 					"textDecoration": "underline"
 				},
 				":hover": {
-					"color": {
-						"text": "var(--wp--preset--color--secondary)"
-					},
 					"typography": {
 						"textDecoration": "none"
 					}

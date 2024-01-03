@@ -3,6 +3,8 @@
  * Title: Post Author
  * Slug: graham/post-author
  * Inserter: no
+ *
+ * @package Graham
  */
 
 ?>
