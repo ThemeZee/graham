@@ -542,7 +542,7 @@ hr.wp-block-separator.is-style-thin {
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content {
-	padding: 0.25rem 0.5rem;
+	padding: 0.5rem;
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:hover,
