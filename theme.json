@@ -977,11 +977,6 @@
 			"area": "uncategorized",
 			"name": "posts",
 			"title": "Posts"
-		},
-		{
-			"area": "uncategorized",
-			"name": "sidebar",
-			"title": "Sidebar"
 		}
 	]
 }
