@@ -24,6 +24,6 @@
 /* Override Button Styles */
 .wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
-	padding: 0.4rem 1rem;
-	border-width: 3px;
+	padding: 0.4rem 0.8rem;
+	border-width: 2px;
 }

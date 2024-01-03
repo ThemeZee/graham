@@ -89,30 +89,30 @@ big {
 	font-size: 125%;
 }
 
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type="button"]:not(.wp-element-button),
+input[type="reset"]:not(.wp-element-button),
+input[type="submit"]:not(.wp-element-button) {
 	margin: 0;
-	padding: calc(0.45rem + 2px) calc(0.9rem + 2px);
+	padding: calc(0.4rem + 2px) calc(0.8rem + 2px);
 	border: none;
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
 	font: inherit;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: var(--wp--preset--font-size--small);
 	line-height: inherit;
 }
 
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus,
-input[type="button"]:active,
-input[type="reset"]:active,
-input[type="submit"]:active {
+input[type="button"]:not(.wp-element-button):hover,
+input[type="reset"]:not(.wp-element-button):hover,
+input[type="submit"]:not(.wp-element-button):hover,
+input[type="button"]:not(.wp-element-button):focus,
+input[type="reset"]:not(.wp-element-button):focus,
+input[type="submit"]:not(.wp-element-button):focus,
+input[type="button"]:not(.wp-element-button):active,
+input[type="reset"]:not(.wp-element-button):active,
+input[type="submit"]:not(.wp-element-button):active {
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--secondary);
 	cursor: pointer;
@@ -260,17 +260,8 @@ th {
 /* Button Block */
 .wp-block-button.is-style-outline > a.wp-block-button__link,
 .wp-block-button a.wp-block-button__link.is-style-outline {
-	border: 3px solid;
-	padding: 0.4rem 1rem;
-}
-
-.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:hover,
-.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:active,
-.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:focus,
-.wp-block-button a.wp-block-button__link.is-style-outline.has-primary-color:hover,
-.wp-block-button a.wp-block-button__link.is-style-outline.has-primary-color:active,
-.wp-block-button a.wp-block-button__link.is-style-outline.has-primary-color:focus {
-	color: var(--wp--preset--color--secondary) !important;
+	border: 2px solid;
+	padding: 0.4rem 0.8rem;
 }
 
 /* Group Block */
