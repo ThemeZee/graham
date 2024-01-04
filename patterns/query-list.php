@@ -33,7 +33,7 @@
 
 			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
-			<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>"} /-->
+			<!-- wp:post-excerpt {"excerptLength":20, "moreText":"<?php esc_html_e( 'Continue reading', 'graham' ); ?>","style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
 
 		</div>
 		<!-- /wp:column -->
